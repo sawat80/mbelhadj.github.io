@@ -1,51 +1,51 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# server process.
+
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default"
-title                    : "Mourad Belhadj"
+site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+title                    : "Your Name / Site Title"
 title_separator          : "-"
-name                     : &name "Mourad Belhadj"
-description              : &description "Academic portfolio of Mourad Belhadj"
-url                      : https://mbelhadj.github.io
-baseurl                  : ""
-repository               : "mbelhadj/mbelhadj.github.io"
+name                     : &name "Your Name"
+description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "academicpages/academicpages.github.io"
 
-# Author
+# Site Author - The following control what appear as part of the author content on the side bar.
+#               If a field is blank the icon and link will not appear, otherwise it will be shown.
+#               Additional customization can be done by editing /_includes/author-profile.html
 author:
+  # Biographic information
   avatar           : "profile.png"
-  name             : "Mourad Belhadj"
-  bio              : "Associate Professor. Research interests include machine learning, speech emotion recognition, and affective computing."
-  location         : "Ouargla, Algeria"
-  employer         : "University of Ouargla"
+  name             : "Your Sidebar Name"
+  pronouns         : # example: "she/her"  
+  bio              : "Short biography for the left-hand sidebar"
+  location         : "Earth"
+  employer         : "Red Brick University"
+  uri              : # URL
+  email            : "none@example.org" 
 
-  # Academic profiles
-  googlescholar    : "https://scholar.google.com/citations?user=g9hxXgEAAAAJ&hl=en"
-  orcid            : "https://orcid.org/0000-0002-5413-6662"
-  researchgate     : "https://www.researchgate.net/profile/Belhadj-Mourad"
-  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=57223873522"
+  # Academic websites
+  academia         : # URL
+  arxiv            : # URL - Update with the correct link to your profile
+  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  inspire-hep      : # URL
+  impactstory      : # URL
+  orcid            : "https://orcid.org/yourorcidurl"
+  semantic         : # URL
+  ssrn             : # URL
+  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  researchgate     : # URL
+  scopus           : # URL
+  zotero           : # URL
 
-  # Professional
-  github           : "mbelhadj"
-  linkedin         : "https://www.linkedin.com/in/mourad-belhadj/"
-
-# Publications categories
-publication_category:
-  manuscripts:
-    title: 'Journal Articles'
-  conferences:
-    title: 'Conference Papers'
-  books:
-    title: 'Books'
-
-# Social (important for SEO + Google indexing)
-social:
-  type: Person
-  name: "Mourad Belhadj"
-  links:
-    - "https://scholar.google.com/citations?user=g9hxXgEAAAAJ&hl=en"
-    - "https://orcid.org/0000-0002-5413-6662"
-    - "https://www.researchgate.net/profile/Belhadj-Mourad"
-    - "https://www.scopus.com/authid/detail.uri?authorId=57223873522"
-    - "https://www.linkedin.com/in/mourad-belhadj/"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
